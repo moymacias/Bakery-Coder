@@ -1,4 +1,3 @@
-import { COLORS } from "../constants/colors";
 import CategoriesScreen from "../screens/CategoriesScreen";
 import DetailsScreen from "../screens/DetailsScreen";
 import ProductsScreen from "../screens/ProductsScreen";
@@ -12,12 +11,9 @@ const ShopNavigator = () => {
     <Stack.Navigator
       initialRouteName="Home"
       screenOptions={{
-        headerStyle: {
-          backgroundColor: COLORS.primary,
-        },
-        headerTintColor: COLORS.quaternary,
         headerTitleStyle: {
           fontWeight: "bold",
+          fontSize: 20,
         },
       }}
     >
