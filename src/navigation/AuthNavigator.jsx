@@ -9,9 +9,7 @@ export default AuthNavigator = () => {
       initialRouteName="Login"
       screenOptions={{
         headerShadowVisible: false,
-        headerTitleStyle: {
-          fontWeight: "bold",
-        },
+        headerShown: false,
       }}
     >
       <Stack.Screen name="Login" component={AuthScreen} />
